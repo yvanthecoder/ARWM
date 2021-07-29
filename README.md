@@ -10,7 +10,7 @@ Robot automatically replying to your whatsapp messages with the possibility of p
 
 Necessary Modules: pyautogui, pyperclip, pynput
 
-Go to your terminal and type in first: 
+Go to your terminal and type: 
 1. pip install pyautogui
 2. pip install pyperclip 
 3. pip install pynput
