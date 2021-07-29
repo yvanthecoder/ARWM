@@ -15,9 +15,9 @@ Go to your terminal and type in first:
 2. pip install pyperclip 
 3. pip install pynput
 
-if it doesn't guift, download and install anaconda go to this link https://www.anaconda.com/products/individual#windows
+if it doesn't git, download and install anaconda go to this link https://www.anaconda.com/products/individual#windows
 
-when the installation will finish search on your computer "anaconda prompt" and execute the same command on anaconda prompt if it doens't guift again you can substituate pip by conda
+when the installation will finish search on your computer "anaconda prompt" and execute the same command on anaconda prompt if it doens't git again you can substituate pip by conda
 
 
 
