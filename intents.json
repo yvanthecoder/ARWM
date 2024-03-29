@@ -1,0 +1,60 @@
+{
+    "intents": [
+        {
+            "tag": "salut",
+            "patterns": ["Hello", "hey", "bonjour", "bonsoir", "yo", "Hola", "salutation", "coucou"],
+            "responses": ["Hello, que puis-je faire pour vous ?", "Salut, Je suis disponible pour vous.", "Comment puis-je vous aider ?"]
+        },
+        {
+            "tag": "Différence,Connexion,Contenus",
+            "patterns": [
+                "Pouvez-vous expliquer la différence entre l'Université 3DEXPERIENCE et l'EDUSPACE 3DEXPERIENCE ?",
+                "Où dois-je me connecter pour accéder aux contenus de formation ?"
+            ],
+            "responses": ["L'Université 3DEXPERIENCE est le point d'entrée pour vous former, avec toute notre offre gratuite pour les partenaires CSI. Certains contenus gratuits de l'EDUSPACE 3DEXPERIENCE sont répertoriés dans le catalogue de contenu de l'Université 3DEXPERIENCE. Le catalogue complet des contenus de l'EDUSPACE 3DEXPERIENCE est payant pour les partenaires CSI avec une offre spéciale (vous pouvez trouver plus d'informations ici)."]
+        },
+        {
+            "tag": "FormationPartenariat",
+            "patterns": ["En tant que responsable de partenariat ou chef d'équipe, je souhaite créer un plan de formation pour les membres de mon équipe. Que dois-je faire ?"
+                         
+            ],
+            "responses": ["Les widgets de gestion de l'Université 3DEXPERIENCE sont disponibles pour surveiller et organiser le plan de formation de votre équipe. Veuillez consulter le guide de l'Université 3DEXPERIENCE, à partir de la diapositive 27."]
+        },
+        {
+            "tag": "alternatives,sessions",
+            "patterns": ["Que dois-je faire si j'ai trouvé un contenu dirigé par un instructeur qui m'intéresse, mais qu'aucune session n'est disponible ?"
+            ],
+            "responses": ["Allez à la page du contenu concerné et sélectionnez « Demander une session ». Vous devrez remplir quelques informations (date cible, personnes concernées). Cette demande sera partagée avec l'équipe d'habilitation CSI."]
+        },
+        {
+            "tag": "Registration,instructor-led,University",
+            "patterns": [
+                "Que se passe-t-il après mon inscription à une session dirigée par un instructeur à l'Université 3DEXPERIENCE ?"
+                ]
+        },
+        {
+            "tag": "FormationCSI",
+            "patterns": ["Comment accéder aux programmes de formation/certification et aux contenus pour les partenaires CSI ?"
+            ],
+            "responses": ["Vous pouvez accéder aux programmes d'apprentissage et de certification ainsi qu'aux contenus sur les services en ligne de CSI, dans l'onglet(3DEXPERIENCE University). En tant que prérequis, chaque utilisateur a besoin d'un identifiant 3DEXPERIENCE pour accéder aux services en ligne de CSI. La création de l'identifiant est gérée par l'administrateur de sécurité CSI de votre entreprise. Si vous ne savez pas qui est votre administrateur de sécurité CSI, envoyez un email à vos responsables de l'Alliance GEO ou à l'email générique Support.CSI-Partner@3ds.com en mentionnant votre prénom, nom, nom de l'entreprise et pays. Pour débuter votre formation, nous recommandons de consulter les catalogues des programmes CSI pour choisir en fonction de vos besoins. Ensuite, connectez-vous à l'Université 3DEXPERIENCE pour accéder à tous les cours disponibles. Il est conseillé de commencer par le programme d'intégration CSI 3DS - CSI avant de suivre d'autres formations spécialisées. Pour toute question sur l'utilisation de l'Université 3DEXPERIENCE, consultez le eLearning (Tour des services en ligne CSI) ou le guide de l'Université 3DEXPERIENCE (version PDF). Si vous ne trouvez pas de cours adaptés à vos besoins, contactez Support.CSI-Certification@3DS.com en expliquant en détail vos besoins de formation."]
+        },
+        {
+            "tag": "CSI,Administrateur,de,sécurité",
+            "patterns": ["Que dois-je faire en tant que nouveau administrateur de sécurité CSI ?"
+            ],
+            "responses": ["Une présentation est possible ou déjà planifiée par l'équipe des alliances de Dassault Systèmes. Sinon, le guide de l'administrateur de sécurité CSI est disponible pour vous aider dans les premières étapes. Pour toute question ou assistance nécessaire, veuillez contacter Support.CSI-Partner@3ds.com. En cas de problème technique sur la plateforme partenaire / services en ligne de CSI (Accès refusé, Messages d'erreur), consultez d'abord le Guide technique et suivez les étapes décrites. Si le problème persiste, contactez Support.CSI-Partner@3ds.com. Vous pouvez trouver des webinaires disponibles ainsi que la base de connaissances dans les services en ligne de CSI."]
+        },
+        {
+            "tag": "CSI",
+            "patterns": ["Quelle est la procédure pour accéder aux Services en ligne de CSI ?"
+            ],
+            "responses": ["Pour accéder aux services en ligne de CSI, chaque utilisateur doit disposer d'un identifiant 3DEXPERIENCE. La création de cet identifiant est gérée par l'administrateur de sécurité CSI de votre entreprise. Si vous ne connaissez pas votre administrateur de sécurité CSI, contactez vos responsables de GEO Alliance ou envoyez un e-mail à Support.CSI-Partner@3ds.com en fournissant vos informations. Pour commencer, nous recommandons de suivre le programme d'intégration CSI 3DS - CSI disponible dans l'Université 3DEXPERIENCE. Si un partenaire CSI vous contacte pour créer un accès aux services en ligne de CSI, redirigez-le vers l'administrateur de sécurité CSI de son site. Si aucun administrateur n'est disponible, contactez le point focal de votre partenaire CSI ou écrivez à Support.CSI-Partner@3ds.com."]
+        },
+        {
+            "tag": "Suivi,formation,employés",
+            "patterns": ["En tant que responsable de partenariat ou administrateur, je souhaite vérifier l'achèvement de la formation et de la certification de mes employés. Où trouver ces informations ?"
+            ],
+            "responses": ["Vous pouvez suivre la progression de vos employés en matière de formation et de certification dans le tableau de bord administrateur CSI, accessible via le portail partenaire CSI. Consultez l'onglet (Mon entreprise) > (Mes employés) > (Programme de formation et de certification) pour voir les détails des programmes suivis et des certifications obtenues, ainsi que leur date de validité."]
+        }
+    ]
+}
